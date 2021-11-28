@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F6F6F9;
+}
+/*Cabecera*/
+
+.Primera_nav{
+    background: #05323C;
+    padding: 1% 0 1% 0;
+}
+.contenedor-img{
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+ul img{
+    width: 30px;
+    height: auto;
+}
+.UL{
+  padding-left: 90%;  
+}
+
+/*Barra de navegacion principal*/
+
+.Segunda_nav{
+    padding: 0% 0 0% 1%;
+    background: #fff;
+    overflow: hidden;
+}
+.Segunda_nav ul{
+    display: flex;
+}
+.Segunda_nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.Segunda_nav ul li ul{
+    position: absolute;
+    background: #fff;
+}
+.Segunda_nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+.Segunda_nav ul li ul li ul{
+    top: 0;
+    left: 106px;
+    position: absolute;
+    background: #fff;
+}
+.Segunda_nav ul li ul li > a{
+    all: none;
+    text-align: center;
+}
+.Segunda_nav ul li ul{
+    display: none;
+}
+
+.Segunda_nav ul li:hover > ul{
+    display: block;
+}
+.align-img{
+    margin-bottom: 15px;
+}
+#logoimg{
+    width: 180px;
+    height: auto;
+    float: left;
+}
+ul{
+    list-style: none;
+    padding: 0.5% 0% 0.5% 0%;
+}
+li{
+    display: inline; 
+    padding: 0 0 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A {
+    padding: 20px 10px;
+    display: block;
+    background-image: linear-gradient(#EEB00D, #EEB00D);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size .3s;
+}
+.A:hover,.A:focus{background-size: 100% 3px;}
+nav .A{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/*Cuerpo de la pagina*/
+.infotitulo{
+    top: 50%;
+    font-family: Arial;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+.tituloclubs{
+    top: 50%;
+    font-family: Arial;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+.infotext{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.article{
+    width: 95%;
+    font-family: Arial;
+}
+.espacios{
+    background: #05323C;
+    
+}
+/*hover_Efecto_img*/
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43vh;    
+}
+.contenedorI{
+    padding-left: 15px;
+}
+.contenedor figure{
+   position: relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+   
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+.imagen{
+    padding-left: 70px;
+}
+#texto{
+    line-height: 1.2;
+    font-weight: 4px;
+    color: #706f6f;
+}
+.linea{
+    background-color: #b38e5d;
+    bottom: -10px;
+    width: 35px;
+    height: 5px;
+}
+.contenedorP{
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.contenedorP img{
+    width: 100%;
+    height: 100%;
+}
+.centrado{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+    color: white;
+}
+
+/*Boton*/
+.button{
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer
+}
+.button1{
+    background-color: #EEB00D;
+} 
+/*Pie de pagina*/
+footer{
+    background: #7c233e;
+    padding: 50px 0 50px 0;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
