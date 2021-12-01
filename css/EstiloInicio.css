@@ -45,7 +45,7 @@ ul img{
 }
 .Segunda_nav ul li ul li ul{
     top: 0;
-    left: 106px;
+    left: 105px;
     position: absolute;
     background: #fff;
 }
@@ -167,6 +167,9 @@ body{
      text-shadow: 0 0 5px #999;
      font-size: 20px;
      padding-bottom: 10px;
+     text-align: center;
+     position: relative;
+     top: 35%;
  }
  .parrafo{
     color: #fff;
@@ -180,7 +183,7 @@ body{
  }
  /*Pie de pagina*/
 footer{
-    background: #7c233e;
+    background: #05323C;
     padding: 50px 0 50px 0;
 }
 footer p{
